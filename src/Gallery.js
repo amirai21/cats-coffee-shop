@@ -6,9 +6,9 @@ const Gallery = () => {
   const images = [
     'https://assets-metrostyle.abs-cbn.com/prod/metrostyle/attachments/1a4c347e-78cf-4707-a7ed-332c63d1b551_inshot_20230619_202043760.jpg',
     'https://www.siouxlandproud.com/wp-content/uploads/sites/68/2022/10/AP18013706797236.jpg?w=1280',
-    '/images/cat3.jpg',
-    '/images/cat4.jpg',
-    '/images/cat5.jpg',
+    'https://images.squarespace-cdn.com/content/v1/59014ed8db29d637250fa476/1511726587674-62FWNT72LCGTBO4AXRP5/IMG_2232.jpg',
+    'https://south.tours/wp-content/uploads/2021/09/cafe-cats-looking-out-window-at-crowd_alexandra-steedman-1024x683-1.jpeg',
+    'https://www.liveabout.com/thmb/I2r_bjNvznT98AgHFm_uR2F_b4Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/girl-playing-with-cats-in-cat-cafe-1063781456-613a218c722a4c79ba869ab5bf2d0bd1.jpg',
   ];
 
   return (

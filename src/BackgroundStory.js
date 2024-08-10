@@ -3,7 +3,7 @@ import './BackgroundStory.css'; // Keep this for other styles
 
 const BackgroundStory = () => {
   const backgroundStyle = {
-    backgroundImage: `url('/paws.jpg')`,
+    backgroundImage: `url('https://static.vecteezy.com/system/resources/thumbnails/004/806/928/small/silhouettes-of-pads-of-the-cat-paws-animal-paw-prints-on-ground-simple-black-and-white-isolated-on-white-background-vector.jpg')`,
     backgroundColor: 'rgba(255, 245, 250, 0.9)', // Light pink with opacity
     backgroundBlendMode: 'overlay', // Blend the color with the image
     backgroundSize: 'cover',

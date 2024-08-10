@@ -7,7 +7,6 @@ const Header = () => {
       <nav>
         <a href="#menu">Menu</a>
         <a href="#reviews">Reviews</a>
-        <a href="#recommendations">Recommendations</a>
         <a href="#gallery">Gallery</a>
         <a href="#house-cats">House Cats</a> {/* New link for House Cats */}
       </nav>

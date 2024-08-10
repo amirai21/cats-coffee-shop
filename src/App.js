@@ -22,9 +22,9 @@ function App() {
       <section id="house-cats">
         <HouseCats /> {/* Add the HouseCats component here */}
       </section>
-      <section id="recommendations">
+      {/* <section id="recommendations">
         <Recommendations />
-      </section>
+      </section> */}
       <section id="reviews">
         <Reviews />
       </section>
