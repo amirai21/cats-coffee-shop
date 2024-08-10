@@ -1,38 +1,307 @@
-.App {
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e8e0e3; /* Default light pink background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333; /* Black background for the header */
+  color: white; /* White text color */
+  padding: 10px; /* Reduced padding for a shorter navbar */
+  text-align: center;
+  position: sticky; /* Make the header sticky */
+  top: 0; /* Stick to the top of the page */
+  z-index: 1000; /* Ensure it stays on top of other elements */
+}
+
+nav a {
+  color: white; /* White links in the header */
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.review-title {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.review-content {
+  background-color: #fff2f7; /* Even lighter, almost white background with a hint of pink */
+  text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#recommendations {
+  background-color: #fffbf7; /* Even lighter, almost white background with a hint of pink */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+section {
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#gallery {
+  background-color: #ececec; /* Light creamy background for the gallery */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.footer-content {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Align items vertically */
+  gap: 20px; /* Space between the items */
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.footer-content p {
+  margin: 0;
+  line-height: 1.5; /* Ensure consistent line height */
+}
+
+.social-media-links {
+  display: flex;
+  align-items: center; /* Align the social media links with text */
+  gap: 10px; /* Space between the social media links */
+}
+
+.social-media-links a {
+  color: #ff69b4; /* Pink color for the links */
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.social-media-links a:hover {
+  text-decoration: underline;
+}
+
+
+.social-media-links a {
+  color: #ff69b4; /* Pink color for the links */
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.social-media-links a:hover {
+  text-decoration: underline;
+}
+
+
+.gallery img {
+  width: 350px;  /* Adjusted width of the images */
+  height: 350px; /* Adjusted height of the images */
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust the size of the carousel images */
+.carousel .slide img {
+  width: 50%; /* Reduce the image size to 50% */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 auto; /* Center the images */
+  object-fit: cover;
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+/* Ensure the carousel container has position relative */
+.carousel {
+  position: relative;
+}
+
+/* Position the carousel arrows */
+.carousel .control-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  border-radius: 50%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  z-index: 10; /* Ensure arrows are above the images */
+  cursor: pointer;
+  opacity: 0.8; /* Slight opacity for better visibility */
 }
 
-.App-link {
-  color: #61dafb;
+.carousel .control-prev.control-arrow {
+  left: 50%; /* Position the left arrow next to the left side of the image */
+  transform: translate(-100%, -50%); /* Adjust to be adjacent to the image */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.carousel .control-next.control-arrow {
+  right: 50%; /* Position the right arrow next to the right side of the image */
+  transform: translate(100%, -50%); /* Adjust to be adjacent to the image */
+}
+
+.carousel .control-arrow:before {
+  font-size: 20px;
+  color: white; /* White color for the arrow icons */
+}
+
+
+footer {
+  background-color: #333; /* Black background */
+  color: white; /* White text color */
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px; /* Add some space above the footer */
+  border-top: 3px solid #ff69b4; /* Pink top border */
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto; /* Center the content */
+}
+
+.footer-content h3 {
+  margin-bottom: 10px;
+  color: #ff69b4; /* Pink color for headings */
+}
+
+.footer-content p {
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.contact-info li {
+  margin: 5px 0;
+}
+
+.social-media a {
+  color: #ff69b4; /* Pink color for social media links */
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  color: #ff1493; /* Deep pink for headings */
+  text-align: center;
+  font-size: 2.5rem; /* Make the font size larger */
+  font-weight: 700; /* Make the font bold */
+  font-family: 'Montserrat', sans-serif; /* Use a top-class font */
+  text-transform: uppercase; /* Make all letters uppercase */
+  margin-top: 50px; /* Increase top margin for spacing */
+  margin-bottom: 20px; /* Space out from the content below */
+  letter-spacing: 2px; /* Add letter spacing for elegance */
+  border-bottom: 3px solid #ff69b4; /* Add a stylish pink underline */
+  display: inline-block;
+  padding-bottom: 10px; /* Space between text and underline */
+}
+
+h2::after {
+  content: '';
+  display: block;
+  width: 50px; /* Small line below the title */
+  height: 3px;
+  background-color: #ff69b4; /* Match the underline color */
+  margin: 10px auto 0 auto; /* Center the small line */
+}
+
+.cats-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.cat-card {
+  background-color: #ffcce0; /* Light pink background for each cat card */
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+.cat-card h3 {
+  color: #ff1493; /* Deep pink for cat names */
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cat-card p {
+  font-size: 1rem;
+  color: #555; /* Slightly darker text for stories */
+}
+
+.cat-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.recommendations-list {
+  list-style-type: none; /* Remove default bullets */
+  padding: 0;
+  margin: 0 auto;
+  max-width: 800px; /* Limit width for better readability */
+}
+
+.recommendation-item {
+  background-color: #ffebf5; /* Soft pink background */
+  border-left: 5px solid #f487c1; /* Pink left border for emphasis */
+  margin: 15px 0;
+  padding: 20px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333; /* Dark text color for readability */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  font-family: 'Georgia', serif; /* Use a serif font for a classic, elegant look */
+}
+
+.recommendation-item:first-letter {
+  font-size: 2rem; /* Make the first letter larger for a decorative effect */
+  font-weight: bold;
+  color: #ff69b4; /* Pink color for the first letter */
+}
+
+#house-cats {
+  background-color: rgba(255, 245, 250, 0.9); /* Even lighter, brighter pink with 90% opacity */
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review-title {
+  text-align: center;
 }
