@@ -9,6 +9,7 @@
   
   .house-cat-item {
     cursor: pointer;
+    color: black;
     transition: transform 0.3s ease;
     text-align: center;
   }
