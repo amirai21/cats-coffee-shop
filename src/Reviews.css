@@ -7,7 +7,6 @@
   .review-title {
     text-align: center;
     font-size: 28px;
-    color: #ff69b4; /* Pink color for the links */
     margin-bottom: 30px;
   }
   
@@ -32,7 +31,7 @@
   
   .review-separator {
     border: none;
-    border-top: 1px solid #ccc; /* Light grey separator */
+    border-top: 1px solid #666; /* Light grey separator */
     margin: 15px 0;
   }
   

@@ -26,7 +26,7 @@ const Menu = () => {
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
-    opacity: 0.5, /* Set the background image opacity */
+    opacity: 0.6, /* Set the background image opacity */
     position: 'absolute',
     top: 0,
     left: 0,
@@ -55,7 +55,7 @@ const Menu = () => {
       <ul>
         {menuItems.map((item, index) => (
           <li key={index}>
-            <h3>{item.name} - {item.price}</h3>
+            <h3>{item.name} {item.price}</h3>
             <p>{item.description}</p>
           </li>
         ))}

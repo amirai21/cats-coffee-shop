@@ -23,18 +23,6 @@ nav a {
   font-weight: bold;
 }
 
-.review-title {
-  text-align: center;
-}
-
-.review-content {
-  background-color: #fff2f7; /* Even lighter, almost white background with a hint of pink */
-  text-align: left;
-}
-
-#recommendations {
-  background-color: #fffbf7; /* Even lighter, almost white background with a hint of pink */
-}
 
 section {
   padding: 20px;
