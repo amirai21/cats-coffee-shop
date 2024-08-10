@@ -14,7 +14,7 @@ const Footer = () => {
           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
         </div>
       </div>
-      <div  style={{ marginTop: '35px' }}>This website code & content is entirely fictional and was generated using ChatGPT...</div>
+      <div style={{ marginTop: '35px' }}>This website code & content is entirely fictional and was generated using ChatGPT...</div>
     </footer>
   );
 };
