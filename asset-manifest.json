@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/amirai21/cats-coffee-shop/static/css/main.d11811c4.css",
+    "main.js": "/amirai21/cats-coffee-shop/static/js/main.73470cd4.js",
+    "static/js/453.9100005f.chunk.js": "/amirai21/cats-coffee-shop/static/js/453.9100005f.chunk.js",
+    "index.html": "/amirai21/cats-coffee-shop/index.html",
+    "main.d11811c4.css.map": "/amirai21/cats-coffee-shop/static/css/main.d11811c4.css.map",
+    "main.73470cd4.js.map": "/amirai21/cats-coffee-shop/static/js/main.73470cd4.js.map",
+    "453.9100005f.chunk.js.map": "/amirai21/cats-coffee-shop/static/js/453.9100005f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d11811c4.css",
+    "static/js/main.73470cd4.js"
+  ]
+}
