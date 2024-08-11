@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cats-coffee-shop/static/css/main.da75b2b8.css",
-    "main.js": "/cats-coffee-shop/static/js/main.8d683411.js",
+    "main.css": "/cats-coffee-shop/static/css/main.f87a6b68.css",
+    "main.js": "/cats-coffee-shop/static/js/main.6aa964c8.js",
     "static/js/453.9100005f.chunk.js": "/cats-coffee-shop/static/js/453.9100005f.chunk.js",
     "index.html": "/cats-coffee-shop/index.html",
-    "main.da75b2b8.css.map": "/cats-coffee-shop/static/css/main.da75b2b8.css.map",
-    "main.8d683411.js.map": "/cats-coffee-shop/static/js/main.8d683411.js.map",
+    "main.f87a6b68.css.map": "/cats-coffee-shop/static/css/main.f87a6b68.css.map",
+    "main.6aa964c8.js.map": "/cats-coffee-shop/static/js/main.6aa964c8.js.map",
     "453.9100005f.chunk.js.map": "/cats-coffee-shop/static/js/453.9100005f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da75b2b8.css",
-    "static/js/main.8d683411.js"
+    "static/css/main.f87a6b68.css",
+    "static/js/main.6aa964c8.js"
   ]
 }
